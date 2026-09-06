@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy-950: #030d1a;
+    --navy-900: #061529;
+    --navy-800: #0a1f3d;
+    --navy-700: #0f2d57;
+    --navy-600: #163a70;
+    --navy-500: #1e4d8c;
+    --navy-400: #2963b0;
+    --blue-accent: #2a7fdb;
+    --blue-light: #4a9fe8;
+    --white: #ffffff;
+    --gray-50: #f8f9fb;
+    --gray-100: #f0f2f5;
+    --gray-200: #e2e6ed;
+    --gray-300: #cdd3dc;
+    --gray-500: #7a8699;
+    --gray-700: #3d4a5c;
+    --gray-900: #111827;
+    --charcoal: #1a2332;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: #1a2332;
+    line-height: 1.6;
+    font-family: var(--font-inter, system-ui, sans-serif);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-plus-jakarta, var(--font-inter, system-ui, sans-serif));
+    line-height: 1.2;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .container-custom {
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  @media (min-width: 640px) {
+    .container-custom {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-custom {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .section-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  @media (min-width: 1024px) {
+    .section-padding {
+      padding-top: 7rem;
+      padding-bottom: 7rem;
+    }
+  }
+
+  .gradient-navy {
+    background: linear-gradient(135deg, #030d1a 0%, #0f2d57 50%, #163a70 100%);
+  }
+
+  .gradient-hero {
+    background: linear-gradient(
+      to bottom,
+      rgba(3, 13, 26, 0.75) 0%,
+      rgba(6, 21, 41, 0.6) 50%,
+      rgba(3, 13, 26, 0.85) 100%
+    );
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #4a9fe8, #2a7fdb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .card-shadow {
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06), 0 1px 4px rgba(0, 0, 0, 0.04);
+  }
+
+  .card-shadow-hover {
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .border-subtle {
+    border: 1px solid rgba(0, 0, 0, 0.06);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f2f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #163a70;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2a7fdb;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid #2a7fdb;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Image optimization */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Smooth transitions */
+a, button {
+  transition: all 0.2s ease;
+}
+
+/* WhatsApp green */
+.whatsapp-green {
+  background-color: #25D366;
+}
+.whatsapp-green:hover {
+  background-color: #1ebe5a;
+}
+
+/* Dropdown animation */
+.dropdown-enter {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+.dropdown-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
