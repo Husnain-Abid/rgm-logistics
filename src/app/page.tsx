@@ -74,7 +74,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative h-[420px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/fleet-carrier.jpg"
+                  src="/images/RGM-Professional-Car-Carrier-Fleet.png"
                   alt="RGM Professional Car Carrier Fleet"
                   fill
                   className="object-cover"
@@ -171,7 +171,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative h-[480px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="https://images.pexels.com/photos/16668923/pexels-photo-16668923.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+                  src="/images/Professional-vehicle-transportation-service.png"
                   alt="Professional vehicle transportation service"
                   fill
                   className="object-cover"
@@ -216,7 +216,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
             <div className="relative h-[280px] rounded-2xl overflow-hidden group">
               <Image
-                src="/images/fleet-carrier.jpg"
+                src="/images/RGM-Car-Carrier-Fleet.PNG"
                 alt="RGM Car Carrier Fleet"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -232,7 +232,7 @@ export default function HomePage() {
             </div>
             <div className="relative h-[280px] rounded-2xl overflow-hidden group">
               <Image
-                src="https://images.pexels.com/photos/16325167/pexels-photo-16325167.png?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200"
+                src="/images/RGM-Fleet-on-Highway.png"
                 alt="RGM Fleet on Highway"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -266,7 +266,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative h-[420px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/pakistan-map.jpg"
+                  src="/images/Pakistan-Map-showing-RGM-service-coverage.png"
                   alt="Pakistan Map showing RGM service coverage"
                   fill
                   className="object-cover"
