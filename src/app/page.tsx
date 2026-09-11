@@ -216,7 +216,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
             <div className="relative h-[280px] rounded-2xl overflow-hidden group">
               <Image
-                src="/images/RGM-Car-Carrier-Fleet.PNG"
+                src="/images/RGM-Car-Carrier-Fleet.png"
                 alt="RGM Car Carrier Fleet"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
