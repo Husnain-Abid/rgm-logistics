@@ -99,8 +99,8 @@ export default function BikeTransportPage() {
 
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/bike-transport.jpg"
-                alt="Bike transport service Pakistan"
+                src="/images/bike-transport.png"
+                alt="Bike-transport-service-Pakistan"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

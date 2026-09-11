@@ -106,7 +106,7 @@ export default function AccidentalRecoveryPage() {
 
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/recovery-truck.jpg"
+                src="/images/recovery-truck.png"
                 alt="Accidental car recovery service"
                 fill
                 className="object-cover"

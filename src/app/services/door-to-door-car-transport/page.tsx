@@ -107,7 +107,7 @@ export default function DoorToDoorPage() {
 
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/car-transport.jpg"
+                src="/images/Door-to-door.png"
                 alt="Door-to-door car transport"
                 fill
                 className="object-cover"

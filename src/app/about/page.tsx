@@ -94,7 +94,7 @@ export default function AboutPage() {
             <div className="space-y-6">
               <div className="relative h-[320px] rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/fleet-carrier.jpg"
+                  src="/images/about-1.png"
                   alt="RGM Car Carrier Fleet"
                   fill
                   className="object-cover"
@@ -250,7 +250,7 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="relative h-[380px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/car-transport.jpg"
+                src="/images/about-2.png"
                 alt="Professional car transport service"
                 fill
                 className="object-cover"
