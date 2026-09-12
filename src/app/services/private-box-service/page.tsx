@@ -23,7 +23,7 @@ export default function PrivateBoxServicePage() {
           { label: "Services", href: "/services" },
           { label: "Private Box Service" },
         ]}
-        image="/images/fleet-carrier.jpg"
+        image="/images/private-box-hero.png"
       />
 
       <section className="section-padding bg-white">
@@ -101,7 +101,7 @@ export default function PrivateBoxServicePage() {
 
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/fleet-carrier.jpg"
+                src="/images/Private-box.png"
                 alt="Private box transportation service"
                 fill
                 className="object-cover"

@@ -29,7 +29,7 @@ export default function ServicesPage() {
         title="Vehicle Transportation Services Across Pakistan"
         subtitle="A complete range of professional vehicle transportation solutions. From car carrier to door-to-door service — RGM handles it all."
         breadcrumbs={[{ label: "Services" }]}
-        image="/images/fleet-carrier.jpg"
+        image="/images/about-2.png"
       />
 
       {/* Services List */}

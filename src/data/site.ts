@@ -66,7 +66,7 @@ export const services = [
       "Reliable and professional car transportation across all major cities of Pakistan with your vehicle's safety as our top priority.",
     icon: "Car",
     href: "/services/car-transport",
-    image: "/images/car-transport.jpg",
+    image: "/images/car-transport.png",
     featured: true,
   },
   {
@@ -76,7 +76,7 @@ export const services = [
       "Our professional car carrier fleet ensures your vehicle is safely loaded, secured, and transported to its destination.",
     icon: "Truck",
     href: "/services/car-carrier",
-    image: "/images/fleet-carrier.jpg",
+    image: "/images/RGM-Car-Carrier-Fleet.png",
     featured: false,
   },
   {
@@ -86,7 +86,7 @@ export const services = [
       "We pick up your vehicle directly from your address and deliver it safely to your destination — no hassle, no middlemen.",
     icon: "Home",
     href: "/services/door-to-door-car-transport",
-    image: "/images/car-transport.jpg",
+    image: "/images/door-to-door.png",
     featured: false,
   },
   {
@@ -96,7 +96,7 @@ export const services = [
       "Professional recovery and transportation of accidental or broken-down vehicles handled with care and responsibility.",
     icon: "AlertTriangle",
     href: "/services/accidental-car-recovery",
-    image: "/images/recovery-truck.jpg",
+    image: "/images/recovery-truck.png",
     featured: false,
   },
   {
@@ -106,7 +106,7 @@ export const services = [
       "Secure private box transportation service for your goods and belongings alongside your vehicle.",
     icon: "Package",
     href: "/services/private-box-service",
-    image: "/images/fleet-carrier.jpg",
+    image: "/images/private-box.png",
     featured: false,
   },
   {
@@ -116,7 +116,7 @@ export const services = [
       "Safe and reliable transportation of motorcycles and bikes across Pakistan with proper securing and handling.",
     icon: "Bike",
     href: "/services/bike-transport",
-    image: "/images/bike-transport.jpg",
+    image: "/images/bike-transport.png",
     featured: false,
   },
 ];
